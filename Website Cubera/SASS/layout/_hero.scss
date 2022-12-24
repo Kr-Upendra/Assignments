@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  padding: {
+    top: 3rem;
+    bottom: 3rem;
+  }
+  align-items: center;
+  justify-content: space-between;
+
+  &__about {
+    width: 65%;
+
+    &--text {
+      font-size: 1.75rem;
+      line-height: 1.65;
+      color: $aboutClr;
+      margin-bottom: 2.55rem;
+    }
+  }
+
+  &__goal {
+    & img {
+      width: 300px;
+      aspect-ratio: 1;
+    }
+  }
+}

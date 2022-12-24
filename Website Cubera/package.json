@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.57.1"
+  },
+  "name": "website-cubera",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "sass SASS/main.scss CSS/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

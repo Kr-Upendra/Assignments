@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: $color0;
+  border: $border $color2;
+}
+
+body {
+  font-family: $fontFamily;
+}
+
+.navbar,
+.section,
+.footer {
+  padding: {
+    left: $globalPadding;
+    right: $globalPadding;
+  }
+}

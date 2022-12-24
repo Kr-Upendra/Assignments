@@ -1,0 +1,19 @@
+.footer {
+  padding: {
+    top: 2.5rem;
+    bottom: 3rem;
+  }
+  background-color: $footerClr;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__icons {
+    display: flex;
+    align-items: center;
+
+    & a {
+      margin-left: 01rem;
+    }
+  }
+}
